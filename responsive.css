@@ -30,6 +30,9 @@
         width: 80vw;
     }
 
+    .product-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 /* medium-device */
 @media screen and (max-width:768px) {
@@ -48,4 +51,7 @@
     .search-hidden{
         display: none;
     }    
+    .product-container{
+        grid-template-columns: 1fr;
+    }
 }
