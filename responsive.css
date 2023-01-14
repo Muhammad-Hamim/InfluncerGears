@@ -33,6 +33,13 @@
     .product-container{
         grid-template-columns: repeat(2, 1fr);
     }
+    .feature-text h3{
+        font-size: 25px;
+    }
+    .feature-img img{
+        width: 100%;
+    }
+    
 }
 /* medium-device */
 @media screen and (max-width:768px) {
@@ -41,6 +48,17 @@
     }
     .banner-text{
         width: 80vw;
+    }
+    .feature-container{
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+    .feature-text h3{
+        font-size: 35px;
+    }
+    .feature-text,
+    .feature-img{
+        width: 100%;
     }
 }
 /* small-device */
